@@ -1,0 +1,42 @@
+
+*{
+    margin:0px;
+    padding:0px;
+
+}
+
+:root{
+    --primary-text-color:#ffffff;
+    --secondary-text-color:#000000;
+    --accent-color:#006039;
+    --accent-colr-dark:#212121;
+    --padding-inline-action:20px;
+
+}
+
+body{
+    font-family:"Helvetica Now Text", Helvetica, Arial, sans-serif;
+    color:var(--primary-text-color)
+    
+}
+
+/*change text size of headings,paragraphs,etc if needed*/
+p{
+    font-family: "Helvetica Now Text", Helvetica, Arial, sans-serif;
+    color:var(--secondary-text-color)
+
+}
+
+a{
+    text-decoration: none;
+    display:inline-block;
+}
+
+flex{
+    align-items: center;
+}
+
+#logo.logo{
+    height:20px;
+    width:20px;
+}
