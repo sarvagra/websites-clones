@@ -40,3 +40,24 @@ flex{
     height:20px;
     width:20px;
 }
+
+p{
+    font-family: "Helvetica Now Text", Helvetica, Arial, sans-serif;
+    color:var(--secondary-text-color)
+
+}
+
+a{
+    text-decoration: none;
+    display:inline-block;
+}
+
+flex{
+    align-items: center;
+}
+
+#logo.logo{
+    height:20px;
+    width:20px;
+}
+
