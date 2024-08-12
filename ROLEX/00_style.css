@@ -27,17 +27,47 @@ p{
 
 }
 
+nav {
+    background-color: var(--accent-color);
+}
+
 a{
     text-decoration: none;
     display:inline-block;
 }
 
-flex{
-    justify-content: center;
+nav .container{
+    display:flex;
+    height: 80.5px;
+    
 }
 
-nav .container a.logo img {
-    float:right;
-    width: 20px;
-    height: 20px;
+nav .container a {
+    width:47%;
+}
+
+
+.menu{
+    height:20px;
+    width:20px;
+    padding:30px 110px;
+    z-index: 0;
+}
+
+
+
+.logo{
+    height:40px;
+    width:40px;
+    padding:21px;
+}
+
+.search{
+    height:20px;
+    width:20px;
+    margin-right: 10px;
+    filter: brightness(0)
+    invert(1);
+    padding:20px 70px;
+    margin-right: 0px;
 }
